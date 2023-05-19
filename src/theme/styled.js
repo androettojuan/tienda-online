@@ -14,10 +14,11 @@ export const {
     colors: {
       red: "#f63737",
       green: "#91C301",
-      blue: "#4B0BB4",
+      blue: "#1B4965",
+      lightblue: "#5FA8D3",
       yellow: "#FF912C",
       white: "#ffffff",
-      primary: "$green",
+      primary: "$lightblue",
       dark: "#333333",
       gray: "#a1a1a1",
       secondary: "$blue",
