@@ -17,9 +17,9 @@ export const StyledHomeFondo = styled("img", {
 export const StyledHomeText = styled("span", {
   padding: "10px",
   fontSize: "16px",
-  fontWeight: "400",
-  color: "$dark",
+  fontWeight: "500",
+  color: "$lighter",
   textAlign: "center",
-  backgroundColor: "#CAE9FF",
+  backgroundColor: "#5FA8D3",
   width: "100%",
 });
