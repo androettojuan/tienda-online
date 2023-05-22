@@ -46,7 +46,7 @@ export const StyledShoppingCart = styled("div", {
   flexDirection: "column",
   width: "300px",
   position: "fixed",
-  top: "80px",
+  top: "0",
   right: "0",
   bottom: "0",
   transform: "translateX(100%)",
