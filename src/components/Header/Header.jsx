@@ -21,7 +21,7 @@ function Header() {
   return (
     <StyledHeader>
       <StyledHeaderContainer>
-        <StyledLogo>Logo</StyledLogo>
+        <StyledLogo>Ilusiones</StyledLogo>
         <StyledNavContainer>
           <StyledNav>Inicio</StyledNav>
           <StyledNav>Tienda</StyledNav>

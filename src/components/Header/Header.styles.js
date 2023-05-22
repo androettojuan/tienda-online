@@ -15,7 +15,12 @@ export const StyledHeaderContainer = styled("div", {
   margin: "0 auto",
 });
 
-export const StyledLogo = styled("div", {});
+export const StyledLogo = styled("div", {
+  fontSize: "28px",
+  fontWeight: "400",
+  fontFamily: "Gloria Hallelujah, cursive",
+  color: "$lighter",
+});
 
 export const StyledNavContainer = styled("div", {
   display: "flex",
@@ -103,7 +108,7 @@ export const StyledShoppingCartTitle = styled("span", {
   fontSize: "28px",
   fontWeight: "500",
   color: "$lighter",
-  textAlign: "center",  
+  textAlign: "center",
   margin: "0 auto",
 });
 
