@@ -1,13 +1,12 @@
-import About from "./components/About/About";
-import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div>
-      <Header></Header>
-      <Home></Home>
-      <About></About>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
     </div>
   );
 }
