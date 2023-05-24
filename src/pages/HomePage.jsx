@@ -4,6 +4,7 @@ import Home from "../components/Home/Home";
 import About from "../components/About/About";
 import CardHome from "../components/CardHome/CardHome";
 import HomeLayout from "../components/HomeLayout/HomeLayout";
+import Contact from "../components/Contact/Contact";
 
 const HomePage = () => {
   return (
@@ -31,6 +32,7 @@ const HomePage = () => {
           title={"Detalles"}
         />
       </HomeLayout.CardContainer>
+      <Contact></Contact>
     </HomeLayout>
   );
 };
